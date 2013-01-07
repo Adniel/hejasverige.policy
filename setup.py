@@ -27,7 +27,7 @@ setup(name='hejasverige.policy',
           'setuptools',
           'Plone',
           #'Products.PloneFormGen',
-          'hejas.theme',
+          'hejasverige.theme',
           #'hejasverige.content',
           # -*- Extra requirements: -*-
       ],
