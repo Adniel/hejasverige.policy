@@ -13,12 +13,12 @@
       <role name="Site Administrator"/>
       <role name="StaffMember"/>
     </permission>
-    <permission name="HejaSverige: Add Promotion" acquire="False">
+    <!--permission name="HejaSverige: Add Promotion" acquire="False">
       <role name="Manager"/>
       <role name="Owner"/>
       <role name="Editor"/>
       <role name="Site Administrator"/>
-      <role name="StaffMember"/>
+      <role name="StaffMember"/-->
     </permission>
   </permissions>
 </rolemap>
