@@ -18,7 +18,7 @@
       <role name="Owner"/>
       <role name="Editor"/>
       <role name="Site Administrator"/>
-      <role name="StaffMember"/-->
-    </permission>
+      <role name="StaffMember"/>
+    </permission-->
   </permissions>
 </rolemap>
