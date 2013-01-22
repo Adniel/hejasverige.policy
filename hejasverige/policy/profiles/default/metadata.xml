@@ -4,6 +4,8 @@
   <dependencies>
   	<!--dependency>profile-Products.PloneFormGen:default</dependency-->
   	<dependency>profile-hejasverige.theme:default</dependency>
-  	<!--dependency>profile-hejasverige.content:default</dependency-->
+  	<dependency>profile-hejasverige.api:default</dependency>
+  	<dependency>profile-hejasverige.content:default</dependency>
+  	<dependency>profile-hejasverige.megabank:default</dependency>
   </dependencies>
 </metadata>

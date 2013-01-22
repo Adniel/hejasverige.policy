@@ -29,7 +29,8 @@ setup(name='hejasverige.policy',
           #'Products.PloneFormGen',
           'hejasverige.theme',
           'hejasverige.api',
-          #'hejasverige.content',
+          'hejasverige.content',
+          'hejasverige.megabank',
           # -*- Extra requirements: -*-
       ],
       extras_require={
