@@ -7,4 +7,10 @@
 .DS_store
 .long-description.html
 dist
-
+*.tmp
+hejasverige.policy.egg-info/PKG-INFO
+hejasverige.policy.egg-info/SOURCES.txt
+hejasverige.policy.egg-info/requires.txt
+hejasverige/__init__.pyc
+hejasverige/policy/__init__.pyc
+hejasverige/policy/setuphandlers.pyc

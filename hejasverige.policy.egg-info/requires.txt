@@ -1,8 +1,0 @@
-setuptools
-Plone
-Products.PloneFormGen
-hejasverige.theme
-hejasverige.content
-
-[test]
-plone.app.testing

@@ -26,7 +26,7 @@ setup(name='hejasverige.policy',
       install_requires=[
           'setuptools',
           'Plone',
-          #'Products.PloneFormGen',
+          'Products.PloneFormGen',
           'hejasverige.theme',
           'hejasverige.api',
           'hejasverige.content',
