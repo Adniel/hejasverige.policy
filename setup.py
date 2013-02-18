@@ -31,6 +31,7 @@ setup(name='hejasverige.policy',
           'hejasverige.api',
           'hejasverige.content',
           'hejasverige.megabank',
+          'hejasverige.ims'
           # -*- Extra requirements: -*-
       ],
       extras_require={
