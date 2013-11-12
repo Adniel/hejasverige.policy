@@ -15,7 +15,7 @@ def setupSiteSecurity(portal, logger):
     secSchema = ISecuritySchema(portal)
     secSchema.set_enable_self_reg(True)
     secSchema.set_enable_user_pwd_choice(False)
-    secSchema.set_enable_user_folders(False)
+    secSchema.set_enable_user_folders(True)
     secSchema.set_use_email_as_login(True)
 
 
@@ -77,4 +77,4 @@ def importVarious(context):
     portal = context.getSite()
     setupGroups(portal, logger)
     setupSiteSecurity(portal, logger)
-    setupMyPagesFolder(portal, logger)
+    #setupMyPagesFolder(portal, logger)

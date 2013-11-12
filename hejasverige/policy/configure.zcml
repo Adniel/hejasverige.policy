@@ -2,6 +2,7 @@
     xmlns="http://namespaces.zope.org/zope"
     xmlns:five="http://namespaces.zope.org/five"
     xmlns:grok="http://namespaces.zope.org/grok"
+    xmlns:browser="http://namespaces.zope.org/browser"
     xmlns:i18n="http://namespaces.zope.org/i18n"
     xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
     i18n_domain="hejasverige.policy">
@@ -28,7 +29,11 @@
       handler="hejasverige.policy.setuphandlers.importVarious">
     <depends name="rolemap"/>
   </genericsetup:importStep>      
+ 
+ <include package="z3c.jbot" file="meta.zcml" />
   
+ <browser:jbot directory="jbot" />
+
   <!-- -*- extra stuff goes here -*- -->
   <!-- Register Layer -->
   <!--cmf:registerDirectory name="skins" directory="skins" recursive="True" /-->

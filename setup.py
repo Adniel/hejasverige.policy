@@ -25,13 +25,16 @@ setup(name='hejasverige.policy',
       zip_safe=False,
       install_requires=[
           'setuptools',
+          'z3c.jbot',
           'Plone',
+          'collective.onlogin'
           'Products.PloneFormGen',
           'hejasverige.theme',
           'hejasverige.api',
           'hejasverige.content',
           'hejasverige.megabank',
-          'hejasverige.ims'
+          'hejasverige.invitation',
+          #'hejasverige.ims'
           # -*- Extra requirements: -*-
       ],
       extras_require={
