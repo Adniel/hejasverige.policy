@@ -27,7 +27,7 @@ setup(name='hejasverige.policy',
           'setuptools',
           'z3c.jbot',
           'Plone',
-          'collective.onlogin'
+          'collective.onlogin',
           'Products.PloneFormGen',
           'hejasverige.theme',
           'hejasverige.api',
